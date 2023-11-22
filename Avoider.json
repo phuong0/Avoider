@@ -104,9 +104,98 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
         "name": "NewSprite3",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tommy_Turn Around Poses_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d34c092204bd62638ab5e8d04324732b293070f3bcbd4277fde81c8d70616b3d_Tommy_Turn Around Poses_5.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Tommy/d34c092204bd62638ab5e8d04324732b293070f3bcbd4277fde81c8d70616b3d_Tommy_Turn Around Poses_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tommy_Turn Around Poses_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tommy_Turn Around Poses_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Round Speech Bubble_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7c08ba87e57f7bc6d86b91eab92f0399fa54c56470adb853cedb238875ce94b1_Round Speech Bubble_No Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/7c08ba87e57f7bc6d86b91eab92f0399fa54c56470adb853cedb238875ce94b1_Round Speech Bubble_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Round Speech Bubble_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Round Speech Bubble_No Shadow.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Round Speech Bubble_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f39151ea20e432b9df26715f37f26b5de77665d7104b08a6f494e3f35013e924_Round Speech Bubble_Shadow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Non Combat Actions/f39151ea20e432b9df26715f37f26b5de77665d7104b08a6f494e3f35013e924_Round Speech Bubble_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Round Speech Bubble_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Round Speech Bubble_Shadow.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset Piece 38.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Tileset Piece 38.png\",\"extension\":\".png\"}",
+        "name": "b9fd8f148c3d5c96de0f2b9ef82c350020913c4d667bc79dbc711715f85de3e3_Tileset Piece 38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Tileset/b9fd8f148c3d5c96de0f2b9ef82c350020913c4d667bc79dbc711715f85de3e3_Tileset Piece 38.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],
@@ -124,7 +213,16 @@
       "referenceTo": "/layouts/veritcal"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/music"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

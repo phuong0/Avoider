@@ -1,0 +1,34 @@
+{
+  "associatedLayout": "Veritcal",
+  "lastChangeTimeStamp": 0,
+  "name": "music",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
