@@ -1611,6 +1611,24 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
+            "yes",
+            "5",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
