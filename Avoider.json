@@ -215,6 +215,36 @@
         "name": "assets\\victoryscreen.jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Heavy-body-hit.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Heavy-body-hit.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/624878__sonically_sound__old-video-game-4.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\624878__sonically_sound__old-video-game-4.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/333785__projectsu012__8-bit-failure-sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\333785__projectsu012__8-bit-failure-sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

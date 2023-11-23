@@ -1425,6 +1425,30 @@
                 "\"Game Over Screen\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Heavy-body-hit.mp3",
+                "",
+                "10",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\333785__projectsu012__8-bit-failure-sound.wav",
+                "yes",
+                "20",
+                "1"
+              ]
             }
           ]
         },
@@ -1465,6 +1489,18 @@
                 "",
                 "\"Victory Screen\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\624878__sonically_sound__old-video-game-4.wav",
+                "",
+                "20",
+                "1"
               ]
             }
           ]
