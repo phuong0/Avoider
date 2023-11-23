@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Start Screen",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -197,6 +197,24 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/gameoverscreen.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\gameoverscreen.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/victoryscreen.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\victoryscreen.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -210,17 +228,25 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/veritcal"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/victory-screen"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/music"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/untitled-external-events"
     }
   ],
   "eventsFunctionsExtensions": [

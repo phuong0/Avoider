@@ -1,13 +1,13 @@
 {
-  "b": 5,
+  "b": 30,
   "disableInputWhenNotFocused": true,
   "mangledName": "Veritcal",
   "name": "Veritcal",
-  "r": 65,
+  "r": 32,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 117,
+  "v": 32,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -1415,6 +1415,16 @@
                 "=",
                 "start_pos.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over Screen\"",
+                ""
+              ]
             }
           ]
         },
@@ -1445,6 +1455,16 @@
                 "start_pos.X()",
                 "=",
                 "start_pos.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Victory Screen\"",
+                ""
               ]
             }
           ]
