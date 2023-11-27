@@ -253,7 +253,32 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "music",
+      "objects": []
+    },
+    {
+      "name": "thoughts",
+      "objects": [
+        {
+          "name": "thoughts_1"
+        },
+        {
+          "name": "thoughts_2"
+        },
+        {
+          "name": "thoughts_3"
+        },
+        {
+          "name": "thoughts_4"
+        },
+        {
+          "name": "thoughts_5"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "layouts": [
     {
@@ -262,7 +287,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/veritcal"
+      "referenceTo": "/layouts/lvl-1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -271,6 +296,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/victory-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lvl-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lvl-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lvl-4"
     }
   ],
   "externalEvents": [
