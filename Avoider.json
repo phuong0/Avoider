@@ -257,26 +257,6 @@
     {
       "name": "music",
       "objects": []
-    },
-    {
-      "name": "thoughts",
-      "objects": [
-        {
-          "name": "thoughts_1"
-        },
-        {
-          "name": "thoughts_2"
-        },
-        {
-          "name": "thoughts_3"
-        },
-        {
-          "name": "thoughts_4"
-        },
-        {
-          "name": "thoughts_5"
-        }
-      ]
     }
   ],
   "variables": [],
