@@ -245,6 +245,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "avoiderref (1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "avoiderref (1).jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
