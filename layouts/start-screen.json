@@ -117,6 +117,14 @@
       "conditions": [
         {
           "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "KeyPressed"
           },
           "parameters": [
@@ -126,6 +134,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
+            "yes",
+            "5",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Scene"

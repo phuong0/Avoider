@@ -208,8 +208,8 @@
       "name": "player",
       "persistentUuid": "f45ff943-f9b6-4e83-873d-c98f82c6bff9",
       "width": 75,
-      "x": 606,
-      "y": 646,
+      "x": 596,
+      "y": 643,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -452,6 +452,21 @@
       "x": -11,
       "y": -18,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lvl_indicator",
+      "persistentUuid": "ca3bef8f-d2d2-4a89-b744-dd012e0091d3",
+      "width": 0,
+      "x": 18,
+      "y": 0,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1268,6 +1283,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "lvl_indicator",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level 1",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 81,
+        "g": 241,
+        "r": 162
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1308,6 +1344,9 @@
       },
       {
         "objectName": "obstacle"
+      },
+      {
+        "objectName": "lvl_indicator"
       }
     ]
   },
@@ -1342,13 +1381,7 @@
                 "",
                 "\"thoughts_spawn\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
             {
               "type": {
                 "value": "PlaySound"
@@ -1362,6 +1395,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -1820,6 +1858,10 @@
     {
       "name": "ScreenWrap",
       "type": "ScreenWrap::ScreenWrap"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

@@ -254,6 +254,32 @@
         "name": "avoiderref (1).jpg",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tommy_Running_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1fbac18d86f2282dd2f04b2caa2951bab2070c7c2b2c75e7618d915ee8ba2329_Tommy_Running_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Tommy/1fbac18d86f2282dd2f04b2caa2951bab2070c7c2b2c75e7618d915ee8ba2329_Tommy_Running_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tommy_Turn Around Poses_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c7a927660eedea21bf5ea726ecef7e7c57c9c94a958352c7c3bb751c606e3af5_Tommy_Turn Around Poses_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Tommy/c7a927660eedea21bf5ea726ecef7e7c57c9c94a958352c7c3bb751c606e3af5_Tommy_Turn Around Poses_1.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

@@ -630,6 +630,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 45,
+      "layer": "",
+      "name": "lvl_indicator",
+      "persistentUuid": "83c8088f-1334-4e27-98e2-f54ddcf62535",
+      "width": 126,
+      "x": 11,
+      "y": 3,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1214,6 +1230,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Tommy_Turn Around Poses_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "1fbac18d86f2282dd2f04b2caa2951bab2070c7c2b2c75e7618d915ee8ba2329_Tommy_Running_8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2025,6 +2077,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "lvl_indicator",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level 2",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 134,
+        "g": 233,
+        "r": 184
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2083,6 +2156,9 @@
       },
       {
         "objectName": "obstacle"
+      },
+      {
+        "objectName": "lvl_indicator"
       }
     ]
   },
@@ -2117,13 +2193,7 @@
                 "",
                 "\"thoughts_spawn\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+            },
             {
               "type": {
                 "value": "PlaySound"
@@ -2137,6 +2207,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -2276,7 +2351,7 @@
               },
               "parameters": [
                 "",
-                "\"Victory Screen\"",
+                "\"Lvl 3\"",
                 ""
               ]
             },
@@ -2669,6 +2744,10 @@
     {
       "name": "ScreenWrap",
       "type": "ScreenWrap::ScreenWrap"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
