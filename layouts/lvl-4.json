@@ -23,7 +23,23 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "level_indicator",
+      "persistentUuid": "f2aec309-a17c-4220-ba73-4903bc528a57",
+      "width": 0,
+      "x": 9,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "",
@@ -835,6 +851,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "level_indicator",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level 4",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 134,
+        "g": 233,
+        "r": 184
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -875,6 +912,9 @@
       },
       {
         "objectName": "obstacle"
+      },
+      {
+        "objectName": "level_indicator"
       }
     ]
   },
@@ -1328,6 +1368,10 @@
     {
       "name": "ScreenWrap",
       "type": "ScreenWrap::ScreenWrap"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

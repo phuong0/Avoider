@@ -668,6 +668,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "lvl_indicator",
+      "persistentUuid": "909bcfba-ecfd-4228-8b5b-dd3ce7ff5c3d",
+      "width": 0,
+      "x": 24,
+      "y": -2,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1577,6 +1592,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "lvl_indicator",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level 3",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 101,
+        "g": 241,
+        "r": 172
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1620,6 +1656,9 @@
       },
       {
         "objectName": "thoughts_6"
+      },
+      {
+        "objectName": "lvl_indicator"
       }
     ]
   },
@@ -2072,6 +2111,10 @@
     {
       "name": "ScreenWrap",
       "type": "ScreenWrap::ScreenWrap"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
