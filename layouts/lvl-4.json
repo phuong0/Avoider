@@ -21,20 +21,763 @@
     "zoomFactor": 0.546875,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "thoughts",
+      "objects": [
+        {
+          "name": "thoughts_1"
+        },
+        {
+          "name": "thoughts_2"
+        },
+        {
+          "name": "thoughts_3"
+        },
+        {
+          "name": "thoughts_4"
+        },
+        {
+          "name": "thoughts_5"
+        },
+        {
+          "name": "thoughts_6"
+        },
+        {
+          "name": "thoughts_7"
+        },
+        {
+          "name": "thoughts_8"
+        },
+        {
+          "name": "thoughts_9"
+        },
+        {
+          "name": "thoughts_10"
+        },
+        {
+          "name": "thoughts_11"
+        },
+        {
+          "name": "thoughts_12"
+        }
+      ]
+    },
+    {
+      "name": "Group",
+      "objects": []
+    }
+  ],
   "variables": [],
   "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "safe",
+      "persistentUuid": "0b2ab543-1aea-4a5a-9291-5e9aa8619c43",
+      "width": 57,
+      "x": 1016,
+      "y": -2,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "begin_here",
+      "persistentUuid": "a69772ee-14d5-4d7d-8b76-b965c0073e4d",
+      "width": 86,
+      "x": 1191,
+      "y": -1,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "start_pos",
+      "persistentUuid": "71126377-b5f3-4700-bf6a-b375db7b6869",
+      "width": 0,
+      "x": 1222,
+      "y": 316,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "player",
+      "persistentUuid": "8f43b388-a217-43bc-bf5f-0aa7ae42a3b8",
+      "width": 0,
+      "x": 1212,
+      "y": 311,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "safe",
+      "persistentUuid": "35f83071-5b41-458e-bc91-83162923f162",
+      "width": 57,
+      "x": 653,
+      "y": -1,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "safe",
+      "persistentUuid": "f019995a-8b22-406a-b550-8a321d4afb42",
+      "width": 57,
+      "x": 432,
+      "y": -3,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "safe",
+      "persistentUuid": "b6b33237-97ea-4d4a-b9b9-f25cfcf546bc",
+      "width": 57,
+      "x": 234,
+      "y": -1,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 722,
+      "layer": "",
+      "name": "goal",
+      "persistentUuid": "bb52c205-80ad-43ae-ba20-84948be257a1",
+      "width": 61,
+      "x": -2,
+      "y": -2,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 721,
+      "layer": "",
+      "name": "safe",
+      "persistentUuid": "6deac3c1-4fc9-499a-a7bd-f010fe3d6f04",
+      "width": 57,
+      "x": 844,
+      "y": -2,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "005e23f2-6cb7-46e3-9cbf-b096a4bd4a0b",
+      "width": 0,
+      "x": 1013,
+      "y": 185,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "9828f38e-d60d-4b6a-9400-0835236c642a",
+      "width": 0,
+      "x": 1013,
+      "y": 265,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "2497ab4b-8f92-4c66-8b06-e783854ce018",
+      "width": 0,
+      "x": 1013,
+      "y": 344,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "d8baef60-42cb-45d1-811d-bf5cde41041e",
+      "width": 0,
+      "x": 1013,
+      "y": 432,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "1489d56a-1da6-47d0-9223-2696911ff456",
+      "width": 0,
+      "x": 1013,
+      "y": 519,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "5a9a91f4-579c-49ed-9e40-5b2f26dbdbc2",
+      "width": 0,
+      "x": 837,
+      "y": 18,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "bfd6fc02-4040-479b-b7db-cfe8450b55d2",
+      "width": 0,
+      "x": 839,
+      "y": 166,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "74ae1e51-9504-4fa9-8980-5789668862eb",
+      "width": 0,
+      "x": 837,
+      "y": 307,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "f6bad75a-c03f-490c-a7ac-cac150cf2cdf",
+      "width": 0,
+      "x": 839,
+      "y": 444,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "2d209151-85f6-45ce-b037-e198f34f37a9",
+      "width": 0,
+      "x": 837,
+      "y": 565,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "266c61fe-2358-4844-9eca-1ad39a7aa8d8",
+      "width": 0,
+      "x": 648,
+      "y": 49,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "d63e8bfc-072c-4306-a000-ed420ab2ea27",
+      "width": 0,
+      "x": 647,
+      "y": 194,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "90a88971-89b1-43ec-ac1e-06e7bf10b355",
+      "width": 0,
+      "x": 647,
+      "y": 333,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "694ddbc2-4c44-48fa-818f-7466e269d5d5",
+      "width": 0,
+      "x": 646,
+      "y": 466,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "f9bc17b9-2b61-4866-9c2a-7a96d24cf332",
+      "width": 0,
+      "x": 647,
+      "y": 638,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "3112050d-edc5-40c6-964d-35accc81fbc5",
+      "width": 0,
+      "x": 430,
+      "y": 4,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "86507772-88dc-4a2d-b51e-3b0b07c88fe5",
+      "width": 0,
+      "x": 428,
+      "y": 316,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "c7678b38-9034-4394-b613-f7dc0ead2b4d",
+      "width": 0,
+      "x": 428,
+      "y": 401,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "63b7c996-fb16-4c12-890c-8d0c2b2c4ed2",
+      "width": 0,
+      "x": 428,
+      "y": 494,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "7c94d413-e6c3-40ee-afdc-6fb45ebd31f8",
+      "width": 0,
+      "x": 428,
+      "y": 580,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "bbdd70d5-867a-4171-b6d7-4df10f615a10",
+      "width": 0,
+      "x": 428,
+      "y": 92,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "e4467854-9cc7-475f-b1dd-ca7fdaf3d006",
+      "width": 0,
+      "x": 230,
+      "y": 134,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "608134b8-a8f4-4a20-9281-f3afb3c40b8c",
+      "width": 0,
+      "x": 229,
+      "y": 212,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "331ab6f5-e6a5-48ec-9a24-515cfb4edab5",
+      "width": 0,
+      "x": 232,
+      "y": 289,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "e5d4e6e5-9de1-4a2f-a3c1-959a8a9c8118",
+      "width": 0,
+      "x": 230,
+      "y": 379,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "level_indicator",
-      "persistentUuid": "f2aec309-a17c-4220-ba73-4903bc528a57",
+      "persistentUuid": "98b74fb1-da6a-41a9-8e53-4f2598e67294",
       "width": 0,
       "x": 9,
-      "y": 0,
-      "zOrder": 1,
+      "y": 6,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obstacle",
+      "persistentUuid": "1185f4a6-e102-46ac-a38b-193ab17a6739",
+      "width": 0,
+      "x": 227,
+      "y": 638,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_1",
+      "persistentUuid": "40b2e441-fce5-416d-993b-3ba2491454fa",
+      "width": 0,
+      "x": 1147,
+      "y": -71,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_2",
+      "persistentUuid": "3ecf8201-046d-44f5-9aae-bae4a0912d41",
+      "width": 0,
+      "x": 1084,
+      "y": 726,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_3",
+      "persistentUuid": "241f771f-deda-4be9-831d-6aafe9d13890",
+      "width": 0,
+      "x": 944,
+      "y": -68,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_4",
+      "persistentUuid": "eebc21fa-08a3-457e-b438-68df40060ac0",
+      "width": 0,
+      "x": 912,
+      "y": 726,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_5",
+      "persistentUuid": "3a1f044d-cfc4-427e-a6e3-21ab1c0e8824",
+      "width": 0,
+      "x": 735,
+      "y": -71,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_6",
+      "persistentUuid": "6b2a758f-8488-40c5-81ac-abd11664cef3",
+      "width": 0,
+      "x": 602,
+      "y": 739,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_7",
+      "persistentUuid": "7631555e-7368-4834-86a1-42898fdee031",
+      "width": 0,
+      "x": 532,
+      "y": -57,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_9",
+      "persistentUuid": "d53423ee-4d84-4b3b-a100-319a14cb8bc3",
+      "width": 0,
+      "x": 373,
+      "y": 724,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_10",
+      "persistentUuid": "a13f44b6-38f9-4c5b-878d-bf390192b09a",
+      "width": 0,
+      "x": 307,
+      "y": -55,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_11",
+      "persistentUuid": "22928be4-ecf2-42f1-9c44-979b4c0b84cb",
+      "width": 0,
+      "x": 174,
+      "y": 719,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "thoughts_12",
+      "persistentUuid": "df91deef-9697-4253-a95d-df6fbea8be77",
+      "width": 0,
+      "x": 80,
+      "y": -49,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -654,6 +1397,42 @@
                       }
                     ]
                   ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "7961994789dd7257e23b761989570805e4fa3a35671a3de1db1a337cb6ca6f99_Tommy_Turn Around Poses_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -872,6 +1651,426 @@
         "g": 233,
         "r": 184
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 3,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 3,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 3,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 3,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_10",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 3,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 3
+                      },
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 3,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thoughts_12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Round Speech Bubble_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 3,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -915,6 +2114,27 @@
       },
       {
         "objectName": "level_indicator"
+      },
+      {
+        "objectName": "thoughts_6"
+      },
+      {
+        "objectName": "thoughts_7"
+      },
+      {
+        "objectName": "thoughts_8"
+      },
+      {
+        "objectName": "thoughts_9"
+      },
+      {
+        "objectName": "thoughts_10"
+      },
+      {
+        "objectName": "thoughts_11"
+      },
+      {
+        "objectName": "thoughts_12"
       }
     ]
   },
@@ -943,6 +2163,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
+                "",
+                "10",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -955,20 +2187,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "HeatleyBros - HeatleyBros III - 02 8 Bit Think.mp3",
-                "yes",
-                "5",
-                "1"
-              ]
-            }
-          ]
+          "actions": []
         }
       ],
       "parameters": []
@@ -1118,9 +2337,9 @@
               },
               "parameters": [
                 "",
-                "assets\\624878__sonically_sound__old-video-game-4.wav",
+                "624883__sonically_sound__old-video-game-5.wav",
                 "",
-                "20",
+                "5",
                 "1"
               ]
             }
@@ -1162,7 +2381,7 @@
                 "",
                 "thoughts_1",
                 "-100",
-                "575",
+                "-60",
                 ""
               ]
             },
@@ -1174,7 +2393,7 @@
                 "",
                 "thoughts_2",
                 "1300",
-                "475",
+                "721",
                 ""
               ]
             },
@@ -1186,7 +2405,7 @@
                 "",
                 "thoughts_5",
                 "-100",
-                "75",
+                "-60",
                 ""
               ]
             },
@@ -1198,7 +2417,7 @@
                 "",
                 "thoughts_4",
                 "-100",
-                "275",
+                "721",
                 ""
               ]
             },
@@ -1210,7 +2429,79 @@
                 "",
                 "thoughts_3",
                 "1300",
-                "175",
+                "-60",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "thoughts_6",
+                "602",
+                "721",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "thoughts_7",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "thoughts_8",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "thoughts_9",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "thoughts_10",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "thoughts_12",
+                "",
+                "",
                 ""
               ]
             },
@@ -1235,7 +2526,7 @@
               },
               "parameters": [
                 "thoughts_1",
-                "0",
+                "90",
                 "120",
                 ""
               ]
@@ -1246,8 +2537,8 @@
               },
               "parameters": [
                 "thoughts_4",
-                "0",
-                "120",
+                "270",
+                "150",
                 ""
               ]
             },
@@ -1257,7 +2548,7 @@
               },
               "parameters": [
                 "thoughts_5",
-                "0",
+                "90",
                 "120",
                 ""
               ]
@@ -1268,8 +2559,8 @@
               },
               "parameters": [
                 "thoughts_2",
-                "0",
-                "-120",
+                "270",
+                "150",
                 ""
               ]
             },
@@ -1279,8 +2570,8 @@
               },
               "parameters": [
                 "thoughts_3",
-                "0",
-                "-120",
+                "90",
+                "120",
                 ""
               ]
             }

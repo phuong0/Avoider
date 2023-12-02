@@ -280,6 +280,107 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Tommy/c7a927660eedea21bf5ea726ecef7e7c57c9c94a958352c7c3bb751c606e3af5_Tommy_Turn Around Poses_1.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tommy_Turn Around Poses_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7961994789dd7257e23b761989570805e4fa3a35671a3de1db1a337cb6ca6f99_Tommy_Turn Around Poses_7.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 3/Tommy/7961994789dd7257e23b761989570805e4fa3a35671a3de1db1a337cb6ca6f99_Tommy_Turn Around Poses_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "avoiderref.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "avoiderref.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "avoiderref2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "avoiderref2.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "624883__sonically_sound__old-video-game-6.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "624883__sonically_sound__old-video-game-6.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "624883__sonically_sound__old-video-game-5.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "624883__sonically_sound__old-video-game-5.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "624883__sonically_sound__old-video-game-4.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "624883__sonically_sound__old-video-game-4.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/624883__sonically_sound__old-video-game-6.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\624883__sonically_sound__old-video-game-6.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "../Users/bruhh/Downloads/624883__sonically_sound__old-video-game-6.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\Users\\bruhh\\Downloads\\624883__sonically_sound__old-video-game-6.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "624883__sonically_sound__old-video-game-3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "624883__sonically_sound__old-video-game-3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Retro-16-bit-or-8-bit-success-melody-win-victory.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Retro-16-bit-or-8-bit-success-melody-win-victory.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

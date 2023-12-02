@@ -28,14 +28,46 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 726,
+      "height": 720,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "e2480aba-bba7-477d-bbfe-b1a3f9acdc22",
-      "width": 1284,
+      "name": "Credits_End_Screen",
+      "persistentUuid": "3ff21562-7ed3-4961-b672-d9f3a0fd94e4",
+      "width": 1280,
       "x": -4,
-      "y": -4,
-      "zOrder": 1,
+      "y": 1,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "",
+      "name": "title_txt",
+      "persistentUuid": "dfa3d433-f621-41f5-8b43-873785afb679",
+      "width": 686,
+      "x": 285,
+      "y": 68,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "Credits",
+      "persistentUuid": "5b0d1b3d-76c8-42d2-97a1-74139e4fe470",
+      "width": 787,
+      "x": 206,
+      "y": 221,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,12 +77,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Again_txt",
-      "persistentUuid": "1d38d57c-c7d2-41e3-acf7-804c70d176df",
+      "name": "again_",
+      "persistentUuid": "90573648-b364-463d-b7b3-30983c1f7e9e",
       "width": 0,
-      "x": 574,
-      "y": 412,
-      "zOrder": 2,
+      "x": 427,
+      "y": 166,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -61,27 +93,27 @@
       "assetStoreId": "",
       "bold": true,
       "italic": true,
-      "name": "Again_txt",
+      "name": "title_txt",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Again?",
+      "string": "Avoider\n",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 90,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 231,
+        "g": 148,
+        "r": 218
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Credits_End_Screen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -98,7 +130,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\victoryscreen.jpg",
+                  "image": "avoiderref2.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -118,16 +150,16 @@
                         "y": 0
                       },
                       {
-                        "x": 608,
+                        "x": 1602,
                         "y": 0
                       },
                       {
-                        "x": 608,
-                        "y": 342
+                        "x": 1602,
+                        "y": 922
                       },
                       {
                         "x": 0,
-                        "y": 342
+                        "y": 922
                       }
                     ]
                   ]
@@ -137,16 +169,64 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Credits",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Credits:\nPhuong Uyen Nguyen- Coding\nRiana Prieto - Art \nAudio Credit:\ngfxsounds.com\nfreesound.org\nMusic: \"8 Bit Think\" By HeatleyBros \nhttps://youtu.be/hdZLNZBZFlY?feature=share\nSprites from GDevelop's Asset Store",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 35,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "again_",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Hit space to play again!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 240,
+        "g": 76,
+        "r": 212
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Again_txt"
+        "objectName": "title_txt"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "Credits_End_Screen"
+      },
+      {
+        "objectName": "Credits"
+      },
+      {
+        "objectName": "again_"
       }
     ]
   },
@@ -154,6 +234,14 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
         {
           "type": {
             "value": "KeyPressed"
@@ -165,6 +253,18 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\624878__sonically_sound__old-video-game-4.wav",
+            "yes",
+            "10",
+            "1"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
