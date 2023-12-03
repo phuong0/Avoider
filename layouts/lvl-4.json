@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.3925161175488227,
     "windowMask": false
   },
   "objectsGroups": [
@@ -54,18 +54,8 @@
         },
         {
           "name": "thoughts_10"
-        },
-        {
-          "name": "thoughts_11"
-        },
-        {
-          "name": "thoughts_12"
         }
       ]
-    },
-    {
-      "name": "Group",
-      "objects": []
     }
   ],
   "variables": [],
@@ -625,8 +615,8 @@
       "name": "thoughts_1",
       "persistentUuid": "40b2e441-fce5-416d-993b-3ba2491454fa",
       "width": 0,
-      "x": 1147,
-      "y": -71,
+      "x": 1103,
+      "y": -65,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -640,8 +630,8 @@
       "name": "thoughts_2",
       "persistentUuid": "3ecf8201-046d-44f5-9aae-bae4a0912d41",
       "width": 0,
-      "x": 1084,
-      "y": 726,
+      "x": 924,
+      "y": 722,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -655,8 +645,8 @@
       "name": "thoughts_3",
       "persistentUuid": "241f771f-deda-4be9-831d-6aafe9d13890",
       "width": 0,
-      "x": 944,
-      "y": -68,
+      "x": 785,
+      "y": 725,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -670,8 +660,8 @@
       "name": "thoughts_4",
       "persistentUuid": "eebc21fa-08a3-457e-b438-68df40060ac0",
       "width": 0,
-      "x": 912,
-      "y": 726,
+      "x": 709,
+      "y": -69,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -685,8 +675,8 @@
       "name": "thoughts_5",
       "persistentUuid": "3a1f044d-cfc4-427e-a6e3-21ab1c0e8824",
       "width": 0,
-      "x": 735,
-      "y": -71,
+      "x": 582,
+      "y": 725,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -700,8 +690,8 @@
       "name": "thoughts_6",
       "persistentUuid": "6b2a758f-8488-40c5-81ac-abd11664cef3",
       "width": 0,
-      "x": 602,
-      "y": 739,
+      "x": 510,
+      "y": -56,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -715,8 +705,8 @@
       "name": "thoughts_7",
       "persistentUuid": "7631555e-7368-4834-86a1-42898fdee031",
       "width": 0,
-      "x": 532,
-      "y": -57,
+      "x": 386,
+      "y": 738,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -730,8 +720,8 @@
       "name": "thoughts_9",
       "persistentUuid": "d53423ee-4d84-4b3b-a100-319a14cb8bc3",
       "width": 0,
-      "x": 373,
-      "y": 724,
+      "x": 178,
+      "y": 734,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -745,8 +735,8 @@
       "name": "thoughts_10",
       "persistentUuid": "a13f44b6-38f9-4c5b-878d-bf390192b09a",
       "width": 0,
-      "x": 307,
-      "y": -55,
+      "x": 73,
+      "y": -57,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -757,26 +747,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "thoughts_11",
-      "persistentUuid": "22928be4-ecf2-42f1-9c44-979b4c0b84cb",
+      "name": "thoughts_8",
+      "persistentUuid": "d82fd14d-0d1b-4e41-aa07-fe93f5169d25",
       "width": 0,
-      "x": 174,
-      "y": 719,
-      "zOrder": 44,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "thoughts_12",
-      "persistentUuid": "df91deef-9697-4253-a95d-df6fbea8be77",
-      "width": 0,
-      "x": 80,
-      "y": -49,
+      "x": 300,
+      "y": -53,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1951,126 +1926,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "thoughts_11",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Round Speech Bubble_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 30,
-                        "y": 3
-                      },
-                      {
-                        "x": 30,
-                        "y": 30
-                      },
-                      {
-                        "x": 3,
-                        "y": 30
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "thoughts_12",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Round Speech Bubble_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 28
-                      },
-                      {
-                        "x": 3,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2129,12 +1984,6 @@
       },
       {
         "objectName": "thoughts_10"
-      },
-      {
-        "objectName": "thoughts_11"
-      },
-      {
-        "objectName": "thoughts_12"
       }
     ]
   },
@@ -2380,8 +2229,8 @@
               "parameters": [
                 "",
                 "thoughts_1",
-                "-100",
-                "-60",
+                "1103",
+                "-65",
                 ""
               ]
             },
@@ -2392,8 +2241,8 @@
               "parameters": [
                 "",
                 "thoughts_2",
-                "1300",
-                "721",
+                "928",
+                "722",
                 ""
               ]
             },
@@ -2404,8 +2253,8 @@
               "parameters": [
                 "",
                 "thoughts_5",
-                "-100",
-                "-60",
+                "582",
+                "725",
                 ""
               ]
             },
@@ -2416,8 +2265,8 @@
               "parameters": [
                 "",
                 "thoughts_4",
-                "-100",
-                "721",
+                "709",
+                "-69",
                 ""
               ]
             },
@@ -2428,8 +2277,8 @@
               "parameters": [
                 "",
                 "thoughts_3",
-                "1300",
-                "-60",
+                "785",
+                "725",
                 ""
               ]
             },
@@ -2440,8 +2289,8 @@
               "parameters": [
                 "",
                 "thoughts_6",
-                "602",
-                "721",
+                "510",
+                "-56",
                 ""
               ]
             },
@@ -2452,8 +2301,8 @@
               "parameters": [
                 "",
                 "thoughts_7",
-                "",
-                "",
+                "386",
+                "783",
                 ""
               ]
             },
@@ -2464,8 +2313,8 @@
               "parameters": [
                 "",
                 "thoughts_8",
-                "",
-                "",
+                "300",
+                "-53",
                 ""
               ]
             },
@@ -2476,8 +2325,8 @@
               "parameters": [
                 "",
                 "thoughts_9",
-                "",
-                "",
+                "178",
+                "734",
                 ""
               ]
             },
@@ -2488,20 +2337,8 @@
               "parameters": [
                 "",
                 "thoughts_10",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "thoughts_12",
-                "",
-                "",
+                "73",
+                "-57",
                 ""
               ]
             },
@@ -2537,8 +2374,8 @@
               },
               "parameters": [
                 "thoughts_4",
-                "270",
-                "150",
+                "90",
+                "120",
                 ""
               ]
             },
@@ -2548,7 +2385,7 @@
               },
               "parameters": [
                 "thoughts_5",
-                "90",
+                "270",
                 "120",
                 ""
               ]
@@ -2570,7 +2407,62 @@
               },
               "parameters": [
                 "thoughts_3",
+                "270",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "thoughts_6",
                 "90",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "thoughts_8",
+                "90",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "thoughts_9",
+                "270",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "thoughts_10",
+                "90",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "thoughts_7",
+                "270",
                 "120",
                 ""
               ]
