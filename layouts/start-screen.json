@@ -207,15 +207,6 @@
           "parameters": [
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Space"
-          ]
         }
       ],
       "actions": [
@@ -230,7 +221,23 @@
             "5",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Scene"
